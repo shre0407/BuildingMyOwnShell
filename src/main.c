@@ -5,9 +5,6 @@ int main() {
   // Flush after every printf
   setbuf(stdout, NULL);
 
-  // Uncomment this block to pass the first stage
-  printf("$ ");
-
   // Wait for user input
   while(1){
     printf("$ ");
